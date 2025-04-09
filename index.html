@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - YouTube Bookmarking Extension</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy for the YouTube Bookmarking Extension</h1>
+        <p>Effective Date: April 9, 2025</p>
+    </header>
+    <main>
+        <section>
+            <h2>Data Collection and Usage</h2>
+            <p>The Extension only collects and processes the following types of user data:</p>
+            <ul>
+                <li>
+                    <strong>Web History</strong>
+                    <ul>
+                        <li><strong>Data Collected:</strong> The URLs of YouTube video pages visited by the user.</li>
+                        <li><strong>Purpose:</strong> To identify if a user is on a YouTube video page and enable bookmarking functionality for specific timestamps.</li>
+                        <li><strong>How It Works:</strong> The Extension checks the URL of the active browser tab to determine if it matches the pattern youtube.com/watch. If it does, the Extension extracts the video ID from the URL to store bookmarks uniquely for that video.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Website Content</strong>
+                    <ul>
+                        <li><strong>Data Collected:</strong> DOM elements of YouTube video pages (e.g., player controls) are accessed to add bookmarking buttons and manage user interactions.</li>
+                        <li><strong>Purpose:</strong> To allow users to save, view, and delete bookmarks directly on YouTube pages.</li>
+                        <li><strong>How It Works:</strong> The Extension injects content scripts into YouTube pages to manipulate the DOM and add interactive features like bookmark buttons.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Data Storage</h2>
+            <p>All data collected by the Extension is stored locally in the user's browser using Chrome's storage API. This includes:</p>
+            <ul>
+                <li>Saved bookmarks (timestamps associated with specific YouTube videos).</li>
+            </ul>
+            <p>No data is transmitted to external servers or third parties.</p>
+        </section>
+        <section>
+            <h2>Permissions</h2>
+            <p>The Extension requires the following permissions to function:</p>
+            <ul>
+                <li><strong>tabs Permission:</strong> To access and read the URL of the active browser tab.</li>
+                <li><strong>storage Permission:</strong> To save and retrieve bookmarks locally within the browser.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>What We Do Not Collect</h2>
+            <p>The Extension does not collect or process any of the following:</p>
+            <ul>
+                <li>Personally identifiable information (e.g., name, address, email).</li>
+                <li>Health information.</li>
+                <li>Financial or payment information.</li>
+                <li>Authentication information (e.g., passwords).</li>
+                <li>Personal communications (e.g., emails or messages).</li>
+                <li>Location data (e.g., IP address or GPS coordinates).</li>
+                <li>User activity beyond YouTube video page interactions (e.g., keystrokes or mouse movements).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>User Control</h2>
+            <p>Users have full control over their data:</p>
+            <ul>
+                <li>Bookmarks can be added, viewed, or deleted directly through the Extension's interface.</li>
+                <li>Uninstalling the Extension will permanently delete all locally stored data.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Security</h2>
+            <p>The Extension uses Chrome's built-in security features to ensure that all stored data remains private and accessible only within the user's browser. No external servers are involved in processing or storing user data.</p>
+        </section>
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be reflected here with an updated effective date.</p>
+            <p>For questions or concerns about this Privacy Policy, please contact us through the support channel listed in the Chrome Web Store listing for this Extension.</p>
+        </section>
+    </main>
+</body>
+</html>
